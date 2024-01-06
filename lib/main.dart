@@ -17,6 +17,7 @@ import 'currency_converter_material_page.dart';
      @override
     Widget build(BuildContext context) {
       return const MaterialApp(
+      debugShowCheckedModeBanner: false,
         home: CurrencyConverterMaterialPage(),
     ); 
    }
